@@ -5,7 +5,7 @@
 Using integration tests with web api projects
 ```
 
-> In this repo, i m exploring  ways in order to setup integration tests with web api projects
+> In this repo, i m exploring ways in order to setup integration tests with web api projects
 >
 > :one: `Example01` use minimal api
 >
