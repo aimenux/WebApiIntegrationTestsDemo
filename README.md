@@ -1,3 +1,5 @@
+[![.NET](https://github.com/aimenux/WebApiIntegrationTestsDemo/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/aimenux/WebApiIntegrationTestsDemo/actions/workflows/ci.yml)
+
 # WebApiIntegrationTestsDemo
 ```
 Using integration tests with web api projects
