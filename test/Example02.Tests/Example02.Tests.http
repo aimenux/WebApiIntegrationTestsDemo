@@ -1,0 +1,7 @@
+﻿###
+
+GET https://localhost:5001/api/ip/local
+
+###
+
+GET https://localhost:5001/api/ip/public
