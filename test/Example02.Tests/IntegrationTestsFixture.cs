@@ -2,7 +2,7 @@
 
 namespace Example02.Tests;
 
-public class WebApiTestFixture : IAsyncLifetime
+public class IntegrationTestsFixture : IAsyncLifetime
 {
     private IAlbaHost _host;
 

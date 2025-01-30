@@ -2,11 +2,11 @@
 
 namespace Example02.Tests;
 
-public class IntegrationTests : IClassFixture<WebApiTestFixture>
+public class IntegrationTests : IClassFixture<IntegrationTestsFixture>
 {
     private readonly IAlbaHost _host;
     
-    public IntegrationTests(WebApiTestFixture app)
+    public IntegrationTests(IntegrationTestsFixture app)
     {
         _host = app.GetHost();
     }

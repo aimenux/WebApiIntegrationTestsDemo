@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.TestHost;
 
 namespace Example01.Tests;
 
-internal class WebApiTestFixture : WebApplicationFactory<Program>
+internal class IntegrationTestsFactory : WebApplicationFactory<Program>
 {
     protected override void ConfigureWebHost(IWebHostBuilder builder)
     {
