@@ -16,4 +16,4 @@ Using integration tests with web api projects
 > :bulb: Integration tests are based on [Alba](https://jasperfx.github.io/alba) for example 2.
 >
 
-**`Tools`** : vs22, net 6.0, web api, integration-testing, alba, fluent-assertions, xunit
+**`Tools`** : net 8.0, web api, integration-testing, alba, fluent-assertions, xunit

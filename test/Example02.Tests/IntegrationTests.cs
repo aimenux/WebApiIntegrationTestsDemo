@@ -16,10 +16,10 @@ public class IntegrationTests : IClassFixture<WebApiTestFixture>
     [InlineData("/api/ip/public")]
     public async Task Should_Get_Success_Response(string route)
     {
-        await _host.Scenario(_ =>
+        await _host.Scenario(cfg =>
         {
-            _.Get.Url(route);
-            _.StatusCodeShouldBeOk();
+            cfg.Get.Url(route);
+            cfg.StatusCodeShouldBeOk();
         });
     }
 }

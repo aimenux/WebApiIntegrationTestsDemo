@@ -11,7 +11,7 @@ public class IntegrationTests
     public async Task Should_Get_Success_Response(string route)
     {
         // arrange
-        var fixture = new WebApiTestFixture();
+        await using var fixture = new WebApiTestFixture();
         var client = fixture.CreateClient();
 
         // act
